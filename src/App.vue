@@ -117,7 +117,6 @@ function setThemeColor(newValue: string) {
       <n-message-provider placement="bottom-right">
         <n-dialog-provider>
           <RouterView />
-          <GithubButton />
         </n-dialog-provider>
       </n-message-provider>
     </n-notification-provider>

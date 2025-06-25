@@ -39,7 +39,6 @@ const { collapsed, isRtl, mobileMode } = storeToRefs(layoutStore)
         <AppsMenu />
         <ThemeCustomize />
         <ThemeSwitch class="mx-1" />
-        <LanguageSelect class="mx-1" />
         <Notifications class="mx-1" />
         <UserProfile class="mx-1" />
       </div>

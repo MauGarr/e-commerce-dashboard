@@ -99,23 +99,6 @@ const menuOptions: MenuOption[] = [
     icon: renderIcon(CustomersIcon),
   },
   {
-    label: () => t('menu.apps'),
-    key: 'apps',
-    icon: renderIcon(AppsIcon),
-    children: [
-      {
-        label: () => renderLabel(t('menu.chat'), '/apps/chat'),
-        key: 'apps-chat',
-        icon: renderIcon(ChatAppIcon),
-      },
-      {
-        label: () => renderLabel(t('menu.todo'), '/apps/todo'),
-        key: 'apps-todo',
-        icon: renderIcon(TodoAppIcon),
-      },
-    ],
-  },
-  {
     label: () => t('menu.authentication'),
     key: 'auth',
     icon: renderIcon(AuthIcon),
@@ -124,19 +107,7 @@ const menuOptions: MenuOption[] = [
         label: () => renderLabel(t('menu.login'), '/account/login'),
         key: 'login',
         icon: renderIcon(LoginIcon),
-      },
-      {
-        label: () => renderLabel(t('menu.register'), '/account/register'),
-        key: 'register',
-        icon: renderIcon(RegisterIcon),
-      },
-
-      {
-        label: () =>
-          renderLabel(t('menu.forgetPassword'), '/account/ForgotPassword'),
-        key: 'forget-password',
-        icon: renderIcon(ForgetIcon),
-      },
+      }
     ],
   },
   {

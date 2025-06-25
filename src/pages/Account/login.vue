@@ -1,9 +1,6 @@
 <script setup lang="ts">
 import type { FormInst, FormRules } from 'naive-ui/es/form/src/interface'
 import { storeToRefs } from 'pinia'
-import AppleIcon from '~/components/CustomIcons/AppleIcon.vue'
-import GoogleIcon from '~/components/CustomIcons/GoogleIcon.vue'
-import MicrosoftIcon from '~/components/CustomIcons/MicrosoftIcon.vue'
 
 import type { LoginViewModel } from '~/models/Account'
 
@@ -23,7 +20,7 @@ async function login() {
       const loginSucceed = await accountStore.login(loginInfo.value)
       if (loginSucceed) {
         useNotifyStore().success(t('login.successMessage'))
-        setTimeout(() => router.push('/'), 500)
+        setTimeout(() => router.push('/products'), 500)
       } else {
         loginFailed.value = true
         setTimeout(() => {
@@ -79,59 +76,13 @@ meta:
               />
             </n-form-item>
 
-            <div class="flex align-items-center justify-between mb-2">
-              <RouterLink
-                to="/Account/ForgotPassword"
-                class="no-underline ml-2 text-blue-500 text-right cursor-pointer"
-              >
-                {{ t('login.forgetPassword') }}
-              </RouterLink>
-            </div>
             <n-button attr-type="submit" size="large" :block="true" type="primary" :loading="isLoading">
               {{ t('login.loginButton') }}
             </n-button>
           </n-form>
-          <div class="text-center pt-4 text-sm">
-            <span class="line-height-3">{{ t('login.haveNotAccount') }}</span>
-            <RouterLink to="/Account/Register" class="no-underline mx-1 text-blue-500 cursor-pointer">
-              {{ t('login.createAccount') }}
-            </RouterLink>
-          </div>
-
-          <div class="social-login pt-3">
-            <div class="separator">
-              <span class="title bg-white dark:bg-slate-800">Or</span>
-            </div>
-            <div class="flex items-center justify-center">
-              <n-button quaternary circle mx-2>
-                <template #icon>
-                  <NIcon size="1.4rem">
-                    <GoogleIcon />
-                  </NIcon>
-                </template>
-              </n-button>
-
-              <n-button quaternary circle mx-2>
-                <template #icon>
-                  <NIcon size="1.4rem">
-                    <MicrosoftIcon />
-                  </NIcon>
-                </template>
-              </n-button>
-
-              <n-button quaternary circle mx-2>
-                <template #icon>
-                  <NIcon size="1.4rem">
-                    <AppleIcon />
-                  </NIcon>
-                </template>
-              </n-button>
-            </div>
-          </div>
         </div>
       </div>
       <div class="mt-3 flex justify-between items-center">
-        <LanguageSelect />
         <ThemeSwitch class="mr-2" />
       </div>
     </div>
