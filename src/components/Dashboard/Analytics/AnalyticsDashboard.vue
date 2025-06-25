@@ -31,10 +31,6 @@ onMounted(() => {
         class="w-full sm:w-1/2 md:w-1/4" :loading="isLoadingStats" :data="summaryStat.sells"
         :title="t('dashboard.sells')" :icon="BasketIcon" color="#9575cd"
       />
-      <SummaryStatCard
-        class="w-full sm:w-1/2 md:w-1/4" :loading="isLoadingStats" :data="summaryStat.visits"
-        :title="t('dashboard.visits')" :icon="StatIcon" color="#FF8000"
-      />
     </div>
     <div>
       <div class="flex flex-col lg:flex-row margin-outside pb-3">
@@ -45,7 +41,6 @@ onMounted(() => {
           <Card class="p-2" :title="t('dashboard.summary')">
             <LineChart />
           </Card>
-          <UsersGenderChart />
         </div>
       </div>
 

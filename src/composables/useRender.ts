@@ -64,7 +64,7 @@ export function useRender() {
       NText,
       {},
       {
-        default: () => value.toLocaleString() + postfix,
+        default: () => postfix + ' ' + value.toLocaleString(),
       },
     )
   }

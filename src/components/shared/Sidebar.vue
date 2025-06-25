@@ -80,7 +80,7 @@ const menuOptions: MenuOption[] = [
         label: () => renderLabel(t('menu.colors'), '/colors'),
         key: 'colors',
         icon: renderIcon(ColorsIcon),
-      }
+      },
     ],
   },
   {
@@ -93,7 +93,7 @@ const menuOptions: MenuOption[] = [
     key: 'customers',
     icon: renderIcon(CustomersIcon),
   },
-  {
+  /*{
     label: () => t('menu.settings'),
     key: 'settings',
     icon: renderIcon(SettingsIcon),
@@ -104,7 +104,7 @@ const menuOptions: MenuOption[] = [
         icon: renderIcon(AccountSettingsIcon),
       },
     ],
-  },
+  },*/
   {
     label: () => t('menu.other'),
     key: 'other',

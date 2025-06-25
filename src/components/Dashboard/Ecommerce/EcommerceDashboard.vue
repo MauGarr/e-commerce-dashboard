@@ -4,7 +4,6 @@ import { storeToRefs } from 'pinia'
 const { t } = useI18n()
 const notify = useNotifyStore()
 const store = useDashboardStore()
-const { isLoading, summaryStat } = storeToRefs(store)
 const layout = useLayoutStore()
 
 onMounted(() => {
@@ -25,21 +24,8 @@ onMounted(() => {
 <template>
   <div>
     <div>
-      <div class="line-row flex flex-col justify-stretch items-stretch lg:flex-row margin-outside w-full">
+      <div class="line-row flex flex-col justify-center items-stretch lg:flex-row margin-outside w-full">
         <WelcomeCard class="w-full lg:w-2/4" />
-        <RevenueChart class="w-full lg:w-1/4" />
-        <RegisterSourceChart class="w-full lg:w-1/4" />
-      </div>
-
-      <div class="flex flex-col lg:flex-row margin-outside w-full pb-1">
-        <div class="lg:w-1/2 w-full">
-          <VisitsChart />
-        </div>
-
-        <div class="flex flex-col lg:flex-row w-full lg:w-1/2">
-          <UsersPlatformChart class="w-full lg:w-1/2" />
-          <RevenueChart class="w-full lg:w-1/2" />
-        </div>
       </div>
 
       <div class="flex flex-wrap margin-outside">
