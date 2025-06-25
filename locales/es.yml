@@ -1,0 +1,241 @@
+brands:
+  create:
+    brandName: Nombre
+    buttonTitle: Crear
+    image: Imagen
+    title: Crear nueva marca
+    url: Url
+  createButton: Crear
+  name: Marca
+  shortName: Nombre corto
+  title: Marcas
+  validations:
+    image: La imagen es obligatoria
+    name: El nombre es obligatorio
+    url: La url es obligatoria
+button:
+  about: Acerca de
+  back: Atrás
+  go: IR
+  home: Inicio
+  toggle_dark: Cambiar modo oscuro
+  toggle_langs: Cambiar idioma
+categories:
+  create:
+    buttonTitle: Crear
+    categoryName: Nombre
+    parent: Padre
+    title: Crear nueva categoría
+  createButton: Crear
+  stat: Estadísticas
+  count: Cantidad
+  topCategories: Categorías principales
+  title: Categorías
+  validations:
+    nameRequired: El nombre es obligatorio
+    parentRequired: No se seleccionó padre
+category:
+  name: Categoría
+  productsCount: Cantidad de productos
+colors:
+  color: Color
+  create:
+    buttonTitle: Crear
+    color: Color
+    name: Nombre
+    title: Crear nuevo color
+  createButton: Crear
+  name: Nombre
+  title: Colores
+  validations:
+    colorRequired: Color no seleccionado
+    nameRequired: El nombre es obligatorio
+common:
+  403Error: No tienes permiso para acceder
+  404Error: Error 404
+  404Message: >-
+    Lo sentimos, pero la página que buscas no existe, ha sido eliminada,
+    el nombre cambió o está temporalmente no disponible
+  actions: Acciones
+  date: Fecha
+  delete: Eliminar
+  deleteConfirm: ¿Estás seguro de eliminar este elemento?
+  goHome: Volver al inicio
+  name: Nombre
+  new: Nuevo
+  notFound: No encontrado
+  oops: Página de error
+  price: Precio
+  search: Buscar
+  status: Estado
+currencySign: Q
+customers:
+  customerName: Nombre del cliente
+  email: Correo electrónico
+  joinDate: Fecha de registro
+  ordersCount: Cantidad de pedidos
+  phone: Teléfono
+  title: Clientes
+customize:
+  color: Color
+  language: Idioma
+  layout: Diseño
+  theme: Tema
+  title: Personalizar
+dashboard:
+  activeOrders: Pedidos activos
+  products: Productos
+  recentOrders: Pedidos recientes
+  registers: Registros
+  sells: Ventas
+  summary: Resumen
+  transactions: Transacciones
+  trendingProducts: Productos en tendencia
+  visits: Visitas
+  welcome: Bienvenido al panel de control
+  greeting_message: ¡Que tengas un buen día! Nos alegra verte aquí.
+  revenueChart:
+    title: Gráfico de ingresos
+    subtitle: Balance total de ingresos
+  userPlatforms:
+    title: Plataformas de usuario
+    subtitle: Total de usuarios
+  registerSource:
+    title: Fuente de registro
+    subtitle: Total de registros
+  genderChart:
+    title: Género de los clientes
+  locationChart:
+    title: Ubicación de los clientes
+description: Panel de control gratuito en Vue 3
+direction: ltr
+enums:
+  OrderStatus:
+    Delivered: Entregado
+    Processing: Procesando
+    ReadyToSend: Listo para enviar
+    Sent: Enviado
+    Submitted: Enviado
+  ProductStatus:
+    Active: Activo
+    Draft: Borrador
+    NotActive: No activo
+home: Inicio
+login:
+  createAccount: ¡Crear una!
+  failedMessage: Error al iniciar sesión
+  forgetPassword: ¿Olvidaste tu contraseña?
+  haveNotAccount: ¿No tienes una cuenta?
+  loginButton: Iniciar sesión
+  message: Para acceder a tu cuenta, inicia sesión aquí
+  password: Contraseña
+  rememberMe: Recuérdame
+  skipLogin: Omitir inicio de sesión
+  successMessage: ¡Sesión iniciada con éxito! 🎉
+  title: Iniciar sesión
+  username: Nombre de usuario
+  validations:
+    passwordRequired: La contraseña es obligatoria
+    userNameRequired: Ingresa el nombre de usuario
+  welcome: ¡Bienvenido de nuevo!
+menu:
+  accountSettings: Configuración de cuenta
+  announcement: Anuncio
+  authentication: Autenticación
+  blog: Blog
+  brands: Marcas
+  categories: Categorías
+  colors: Colores
+  comments: Comentarios
+  createProduct: Crear producto
+  customers: Clientes
+  eCommerce: Comercio electrónico
+  analytics: Analítica
+  dashboard: Panel
+  feedbacks: Comentarios
+  forgetPassword: Olvidé mi contraseña
+  login: Iniciar sesión
+  messages: Mensajes
+  news: Noticias
+  notFound: Error 404
+  notifications: Notificaciones
+  orders: Pedidos
+  other: Otro
+  pages: Páginas
+  productManagement: Gestión de productos
+  products: Productos
+  reviews: Reseñas
+  settings: Configuración
+  sms: Sms
+  support: Soporte
+  users: Usuarios
+  websiteSettings: Configuración del sitio web
+not-found: No encontrado
+notifications:
+  clear: Limpiar todo
+  empty: No hay notificaciones
+  title: Notificaciones
+notify:
+  welcome: >-
+    ¡Bienvenido a Panel de administración!
+orders:
+  customer: Cliente
+  itemsCount: Cantidad de artículos
+products:
+  category: Categoría
+  create:
+    barcode: Código de barras
+    brand: Marca
+    category: Categoría
+    description: Descripción
+    discountedPrice: Precio con descuento
+    imageName: Imagen
+    inStock: En stock
+    keywords: Palabras clave
+    media: Medios
+    name: Nombre del producto
+    newKeyword: Nueva palabra clave
+    price: Precio
+    pricing: Precios
+    productInformation: Información del producto
+    sku: SKU
+    title: Crear producto
+  name: Nombre del producto
+  rate: Calificación
+  stoke: Stock
+reviews:
+  comment: Comentario
+  customer: Cliente
+  date: Fecha
+  product: Producto
+  rate: Calificación
+title: eCommerce
+userMenu:
+  dark: Oscuro
+  en: Inglés
+  fa: Persa
+  language: Idioma
+  light: Claro
+  logout: Cerrar sesión
+  options: Opciones
+  profile: Perfil
+  theme: Tema
+profile:
+  title: Perfil
+  firstName: Nombre
+  lastName: Apellido
+  username: Nombre de usuario
+  email: Correo electrónico
+  location: Ubicación
+  phone: Teléfono
+  save: Guardar
+  oldPassword: Contraseña anterior
+  newPassword: Nueva contraseña
+  confirmPassword: Confirmar contraseña
+  changePassword: Cambiar contraseña
+  sms: Sms
+  notificationType: Tipo de notificación
+  push: Push
+  personalInfo: Información personal
+  notifications: Notificaciones
+  security: Seguridad
