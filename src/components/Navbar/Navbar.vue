@@ -36,10 +36,8 @@ const { collapsed, isRtl, mobileMode } = storeToRefs(layoutStore)
     </template>
     <template #extra>
       <div class="flex items-center">
-        <AppsMenu />
         <ThemeCustomize />
         <ThemeSwitch class="mx-1" />
-        <Notifications class="mx-1" />
         <UserProfile class="mx-1" />
       </div>
     </template>

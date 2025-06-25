@@ -80,12 +80,7 @@ const menuOptions: MenuOption[] = [
         label: () => renderLabel(t('menu.colors'), '/colors'),
         key: 'colors',
         icon: renderIcon(ColorsIcon),
-      },
-      {
-        label: () => renderLabel(t('menu.reviews'), '/reviews'),
-        key: 'reviews',
-        icon: renderIcon(ReviewIcon),
-      },
+      }
     ],
   },
   {
@@ -97,18 +92,6 @@ const menuOptions: MenuOption[] = [
     label: () => renderLabel(t('menu.customers'), '/customers'),
     key: 'customers',
     icon: renderIcon(CustomersIcon),
-  },
-  {
-    label: () => t('menu.authentication'),
-    key: 'auth',
-    icon: renderIcon(AuthIcon),
-    children: [
-      {
-        label: () => renderLabel(t('menu.login'), '/account/login'),
-        key: 'login',
-        icon: renderIcon(LoginIcon),
-      }
-    ],
   },
   {
     label: () => t('menu.settings'),
