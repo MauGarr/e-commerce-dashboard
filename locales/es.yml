@@ -37,19 +37,6 @@ categories:
 category:
   name: Categoría
   productsCount: Cantidad de productos
-colors:
-  color: Color
-  create:
-    buttonTitle: Crear
-    color: Color
-    name: Nombre
-    title: Crear nuevo color
-  createButton: Crear
-  name: Nombre
-  title: Colores
-  validations:
-    colorRequired: Color no seleccionado
-    nameRequired: El nombre es obligatorio
 common:
   403Error: No tienes permiso para acceder
   404Error: Error 404
@@ -78,10 +65,7 @@ customers:
   title: Clientes
 customize:
   color: Color
-  language: Idioma
-  layout: Diseño
   theme: Tema
-  title: Personalizar
 dashboard:
   activeOrders: Pedidos activos
   products: Productos
@@ -94,17 +78,6 @@ dashboard:
   visits: Visitas
   welcome: Bienvenido al panel de control
   greeting_message: ¡Que tengas un buen día! Nos alegra verte aquí.
-  revenueChart:
-    title: Gráfico de ingresos
-    subtitle: Balance total de ingresos
-  userPlatforms:
-    title: Plataformas de usuario
-    subtitle: Total de usuarios
-  registerSource:
-    title: Fuente de registro
-    subtitle: Total de registros
-  genderChart:
-    title: Género de los clientes
   locationChart:
     title: Ubicación de los clientes
 description: Panel de control gratuito en Vue 3
@@ -122,15 +95,10 @@ enums:
     NotActive: No activo
 home: Inicio
 login:
-  createAccount: ¡Crear una!
   failedMessage: Error al iniciar sesión
-  forgetPassword: ¿Olvidaste tu contraseña?
-  haveNotAccount: ¿No tienes una cuenta?
   loginButton: Iniciar sesión
   message: Para acceder a tu cuenta, inicia sesión aquí
   password: Contraseña
-  rememberMe: Recuérdame
-  skipLogin: Omitir inicio de sesión
   successMessage: ¡Sesión iniciada con éxito! 🎉
   title: Iniciar sesión
   username: Nombre de usuario
@@ -142,10 +110,8 @@ menu:
   accountSettings: Configuración de cuenta
   announcement: Anuncio
   authentication: Autenticación
-  blog: Blog
   brands: Marcas
   categories: Categorías
-  colors: Colores
   comments: Comentarios
   createProduct: Crear producto
   customers: Clientes
@@ -170,11 +136,8 @@ menu:
   support: Soporte
   users: Usuarios
   websiteSettings: Configuración del sitio web
+  Profile: Cuenta
 not-found: No encontrado
-notifications:
-  clear: Limpiar todo
-  empty: No hay notificaciones
-  title: Notificaciones
 notify:
   welcome: >-
     ¡Bienvenido a Panel de administración!
@@ -203,12 +166,6 @@ products:
   name: Nombre del producto
   rate: Calificación
   stoke: Stock
-reviews:
-  comment: Comentario
-  customer: Cliente
-  date: Fecha
-  product: Producto
-  rate: Calificación
 title: eCommerce
 userMenu:
   dark: Oscuro
@@ -218,10 +175,10 @@ userMenu:
   light: Claro
   logout: Cerrar sesión
   options: Opciones
-  profile: Perfil
+  profile: Cuenta
   theme: Tema
 profile:
-  title: Perfil
+  title: Cuenta
   firstName: Nombre
   lastName: Apellido
   username: Nombre de usuario

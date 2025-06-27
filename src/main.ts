@@ -57,7 +57,7 @@ Object.values(
 router.beforeEach((to, _, next) => {
   const { t } = i18n.global
   let title = t('title')
-  if (to.meta.title) title = `${t(`menu.${to.meta.title}`)} - ${title}`
+  if (to.meta.title) title = `${t(`menu.${to.meta.title}`)} | ${title}`
 
   document.title = title
   next()

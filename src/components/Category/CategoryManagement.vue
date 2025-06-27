@@ -104,12 +104,6 @@ function searchInListDebounced(value: string) {
         />
       </div>
     </n-layout-content>
-    <n-layout-sider
-      bordered collapse-mode="width" :collapsed-width="0" :width="300" :collapsed="collapsed"
-      @collapse="collapsed = true" @expand="collapsed = false"
-    >
-      <CategoryStatics />
-    </n-layout-sider>
 
     <n-drawer v-model:show="showAddDialog" :width="380" :placement="dialogPlacement">
       <n-drawer-content class="rtl" closable :title="t('categories.create.title')">

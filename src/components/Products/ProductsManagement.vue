@@ -17,7 +17,7 @@ const router = useRouter()
 const { renderDeleteActionButton } = useRender()
 const { options } = useOptions()
 
-const { renderPrice, renderRate, renderTag, renderProductImage } = useRender()
+const { renderPrice, renderTag, renderProductImage } = useRender()
 
 onMounted(getItems)
 
@@ -43,11 +43,6 @@ const columns: DataTableColumns<RowData> = [
         },
       )
     },
-  },
-  {
-    title: t('products.rate'),
-    key: 'rate',
-    render: (row) => renderRate(row.rate),
   },
   {
     title: t('common.price'),
