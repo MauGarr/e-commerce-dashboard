@@ -92,7 +92,7 @@ const menuOptions: MenuOption[] = [
     label: () => renderLabel(t('menu.customers'), '/customers'),
     key: 'customers',
     icon: renderIcon(CustomersIcon),
-  }
+  },
   /*{
     label: () => t('menu.settings'),
     key: 'settings',
