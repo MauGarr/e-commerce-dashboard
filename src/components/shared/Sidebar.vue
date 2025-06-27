@@ -75,7 +75,7 @@ const menuOptions: MenuOption[] = [
         label: () => renderLabel(t('menu.brands'), '/brands'),
         key: 'brands',
         icon: renderIcon(BrandsIcon),
-      }
+      },
     ],
   },
   {

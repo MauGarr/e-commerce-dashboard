@@ -72,24 +72,6 @@ onMounted(() => {
       </NButton>
     </div>
   </div>
-  <div class="section">
-    <NTag type="primary" :bordered="false" size="small" class="mb-3 font-bold">
-      {{ t('customize.layout') }}
-    </NTag>
-
-    <div py-3>
-      <n-switch v-model:value="isFluid" />
-      Fluid Layout
-    </div>
-    <div py-3>
-      <n-switch v-model:value="isRtl" />
-      RTL Layout
-    </div>
-    <div py-3>
-      <n-switch v-model:value="flatDesign" />
-      Flat Design
-    </div>
-  </div>
 </template>
 
 <style lang="scss" scoped>
