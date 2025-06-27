@@ -61,7 +61,7 @@ meta:
     <div class="login-box w-full px-3 md:px-0">
       <div class="md:shadow-lg bg-white dark:bg-slate-800 rounded-md w-full" :class="{ failed: loginFailed }">
         <div class="p-5">
-          <div class="text-2xl font-medium mb-8">
+          <div class="text-2xl text-center font-medium mb-8">
             {{ t('login.title') }}
           </div>
 
