@@ -39,7 +39,7 @@ const columns: DataTableColumns<RowData> = [
   {
     title: t('common.price'),
     key: 'price',
-    render: (row) => renderPrice(row.price, t('currencySign'))
+    render: (row) => renderPrice(row.price, t('currencySign')),
   },
 ]
 </script>

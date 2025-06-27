@@ -92,7 +92,7 @@ const menuOptions: MenuOption[] = [
     label: () => renderLabel(t('menu.customers'), '/customers'),
     key: 'customers',
     icon: renderIcon(CustomersIcon),
-  },
+  }
   /*{
     label: () => t('menu.settings'),
     key: 'settings',
@@ -104,7 +104,7 @@ const menuOptions: MenuOption[] = [
         icon: renderIcon(AccountSettingsIcon),
       },
     ],
-  },*/
+  },
   {
     label: () => t('menu.other'),
     key: 'other',
@@ -115,7 +115,7 @@ const menuOptions: MenuOption[] = [
         key: 'not-found',
       },
     ],
-  },
+  },*/
 ]
 
 const route = useRoute()

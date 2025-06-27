@@ -82,9 +82,6 @@ meta:
           </n-form>
         </div>
       </div>
-      <div class="mt-3 flex justify-between items-center">
-        <ThemeSwitch class="mr-2" />
-      </div>
     </div>
   </div>
 </template>
